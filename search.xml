@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>这是一篇新的博文</title>
-      <link href="/2025/01/03/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E6%96%B0%E7%9A%84%E5%8D%9A%E6%96%87-1/"/>
-      <url>/2025/01/03/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E6%96%B0%E7%9A%84%E5%8D%9A%E6%96%87-1/</url>
+      <title>Cloudflare R2 + PicGo 免费图床教程</title>
+      <link href="/2025/01/03/Cloudflare%20R2%20+%20PicGo%20%E5%85%8D%E8%B4%B9%E5%9B%BE%E5%BA%8A%E6%95%99%E7%A8%8B/"/>
+      <url>/2025/01/03/Cloudflare%20R2%20+%20PicGo%20%E5%85%8D%E8%B4%B9%E5%9B%BE%E5%BA%8A%E6%95%99%E7%A8%8B/</url>
       
-        <content type="html"><![CDATA[<div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style>]]></content>
+        <content type="html"><![CDATA[<h1 id="Cloudflare-R2-PicGo-免费图床教程"><a href="#Cloudflare-R2-PicGo-免费图床教程" class="headerlink" title="Cloudflare R2 + PicGo 免费图床教程"></a>Cloudflare R2 + PicGo 免费图床教程</h1><h2 id="Cloudflare-R2"><a href="#Cloudflare-R2" class="headerlink" title="Cloudflare R2"></a><strong>Cloudflare R2</strong></h2><p>R2 是 Cloudflare 推出的免费对象存储服务，需要免费注册一个 Cloudflare 账号才能使用，注册登录后，点击左侧边栏的 R2 访问服务，但需要注意的是开通 R2 服务需要绑定信用卡（国内外主流信用卡皆可），但并不会扣费，主要是为了验证用户身份使用。</p><p>创建图床 Bucket</p><p><img src="https://alist.deebian.com/deebian/_20241208173910.png"></p><p>开通 R2 服务后，点击右上角「创建存储桶」按钮进行创建。</p><p><img src="https://alist.deebian.com/deebian/cq2b8m5b34t8g67no2qg.webp"></p><p>进入创建配置界面后，需要填写存储桶（Bucket）名称，建议有一些辨识度，后续在配置上传时会用到。</p><p>位置则选择「自动」，但可以额外多配置一个位置提示，由于我后续还将使用「WebP Cloud」服务的美西机房进行图片代理优化，所以在此处选择的是「北美洲西部（WNAM）」，根据需求选其他区域也可以，但 Cloudflare 并不保证一定会分配到所指定的区域。</p>]]></content>
       
       
       
@@ -18,10 +18,10 @@
     
     <entry>
       <title>这是一篇新的博文</title>
-      <link href="/2025/01/03/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E6%96%B0%E7%9A%84%E5%8D%9A%E6%96%87/"/>
-      <url>/2025/01/03/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E6%96%B0%E7%9A%84%E5%8D%9A%E6%96%87/</url>
+      <link href="/2025/01/03/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E6%96%B0%E7%9A%84%E5%8D%9A%E6%96%87-1/"/>
+      <url>/2025/01/03/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E6%96%B0%E7%9A%84%E5%8D%9A%E6%96%87-1/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style>]]></content>
       
       
       
