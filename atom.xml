@@ -6,7 +6,7 @@
   <link href="https://deebian.com/atom.xml" rel="self"/>
   
   <link href="https://deebian.com/"/>
-  <updated>2025-01-11T03:13:54.000Z</updated>
+  <updated>2025-01-12T08:43:19.301Z</updated>
   <id>https://deebian.com/</id>
   
   <author>
@@ -15,27 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>从零开始搭建你的免费图床系统 （Cloudflare R2 + PicList）</title>
-    <link href="https://deebian.com/posts/83dcefb7.html"/>
-    <id>https://deebian.com/posts/83dcefb7.html</id>
-    <published>2025-01-08T05:10:56.000Z</published>
-    <updated>2025-01-11T03:13:54.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1>从零开始搭建你的免费图床系统 （Cloudflare R2 + PicList）</h1><h2 id="Cloudflare-R2">Cloudflare R2</h2><p>R2 是 Cloudflare 推出的免费对象存储服务，需要免费注册一个 <a href="https://sspai.com/link?target=https%3A%2F%2Fwww.cloudflare.com%2Fzh-cn%2F">Cloudflare 账号</a>才能使用，注册登录后，点击左侧边栏的 R2 访问服务，但需要注意的是开通 R2 服务需要绑定信用卡（国内外主流信用卡皆可），但并不会扣费，主要是为了验证用户身份使用</p><p>创建图床 Bucket</p><p><img src="https://alist.deebian.com//2025/01/04/7310e1de2fe2bf53ddfc89fa53d8e2dd" alt=""></p><p>开通 R2 服务后，点击右上角「创建存储桶」按钮进行创建。</p><p><img src="https://alist.deebian.com//2025/01/04/f1754a1b09619e8be71f0e2779a26072" alt=""></p><p>点击「创建存储桶」按钮即完成创建，此时我们已经可以向我们的「picgo0」存储桶上传文件了，可以选择在网页直接上传文件或文件夹。</p><p>也可以使用 S3 API 进行上传，我们后续使用 PicList客户端进行上传就依赖这种方式，但需要进行一些额外配置，点击导航栏「设置」选项进行配置。</p><p><img src="https://alist.deebian.com//2025/01/04/7d131d3483bc41af428b9c659d366014" alt=""></p><p>首先我们需要打开「R2.dev 子域」，这是为了后续访问图片时需要的公网地址，点击「允许访问」，并按照提示输入「allow」即可开启。</p><p><strong>创建API令牌</strong></p><p><img src="https://alist.deebian.com//2025/01/04/32cb0caea524edd390e05ae75ddc39f3" alt=""></p><p><img src="https://alist.deebian.com//2025/01/04/652a29c7796f34a673b5ed076da88cb6" alt=""></p><p>回到 R2 主页面，点击右上角「管理 R2 API 令牌」，进入后点击「创建 API 令牌」。</p><p><img src="https://alist.deebian.com//2025/01/04/0088651211fdedbf619fe440bbc0b622" alt=""></p><p>输入令牌名称，「权限」选择“对象读和写”并将此 API 指定之前所创建的 Bucket，这样最小化权限也保障数据安全，其余选项保持默认即可。</p><p>完成创建后会显示所有密钥，我们使用 PicList 需要的是下面三个信息，不过因为只会显示一次，建议在密码管理软件或其他地方妥善保管好这些参数信息。</p><p>至此，我们需要在 Cloudflare R2 上配置的部分就完成了，接下来我们需要配置 PicList 客户端。</p><h2 id="PicList下载安装">PicList下载安装</h2><h3 id="Github-release">Github release<a href="https://piclist.cn/app.html#github-release"></a></h3><hr><p><a href="https://github.com/Kuingsmile/PicList/releases/latest">https://github.com/Kuingsmile/PicList/releases/latest</a></p><h3 id="PicList设置">PicList设置</h3><p><img src="https://alist.deebian.com//2025/01/08/5183b59449ed7ec4ce05e62715d521bf" alt=""></p>]]></content>
-    
-    
-    <summary type="html">Cloudflare R2 + PicList搭建自己的免费图床</summary>
-    
-    
-    
-    <category term="技术教程" scheme="https://deebian.com/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="免费图床" scheme="https://deebian.com/tags/%E5%85%8D%E8%B4%B9%E5%9B%BE%E5%BA%8A/"/>
-    
-  </entry>
   
   <entry>
     <title>GitHub图床+Cloudflare加速 部署教程</title>
@@ -48,6 +27,27 @@
     
     
     <summary type="html">Github免费图床搭建教程</summary>
+    
+    
+    
+    <category term="技术教程" scheme="https://deebian.com/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="免费图床" scheme="https://deebian.com/tags/%E5%85%8D%E8%B4%B9%E5%9B%BE%E5%BA%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>从零开始搭建你的免费图床系统 （Cloudflare R2 + PicList）</title>
+    <link href="https://deebian.com/posts/83dcefb7.html"/>
+    <id>https://deebian.com/posts/83dcefb7.html</id>
+    <published>2025-01-08T05:10:56.000Z</published>
+    <updated>2025-01-11T03:13:54.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1>从零开始搭建你的免费图床系统 （Cloudflare R2 + PicList）</h1><h2 id="Cloudflare-R2">Cloudflare R2</h2><p>R2 是 Cloudflare 推出的免费对象存储服务，需要免费注册一个 <a href="https://sspai.com/link?target=https%3A%2F%2Fwww.cloudflare.com%2Fzh-cn%2F">Cloudflare 账号</a>才能使用，注册登录后，点击左侧边栏的 R2 访问服务，但需要注意的是开通 R2 服务需要绑定信用卡（国内外主流信用卡皆可），但并不会扣费，主要是为了验证用户身份使用</p><p>创建图床 Bucket</p><p><img src="https://alist.deebian.com//2025/01/04/7310e1de2fe2bf53ddfc89fa53d8e2dd" alt=""></p><p>开通 R2 服务后，点击右上角「创建存储桶」按钮进行创建。</p><p><img src="https://alist.deebian.com//2025/01/04/f1754a1b09619e8be71f0e2779a26072" alt=""></p><p>点击「创建存储桶」按钮即完成创建，此时我们已经可以向我们的「picgo0」存储桶上传文件了，可以选择在网页直接上传文件或文件夹。</p><p>也可以使用 S3 API 进行上传，我们后续使用 PicList客户端进行上传就依赖这种方式，但需要进行一些额外配置，点击导航栏「设置」选项进行配置。</p><p><img src="https://alist.deebian.com//2025/01/04/7d131d3483bc41af428b9c659d366014" alt=""></p><p>首先我们需要打开「R2.dev 子域」，这是为了后续访问图片时需要的公网地址，点击「允许访问」，并按照提示输入「allow」即可开启。</p><p><strong>创建API令牌</strong></p><p><img src="https://alist.deebian.com//2025/01/04/32cb0caea524edd390e05ae75ddc39f3" alt=""></p><p><img src="https://alist.deebian.com//2025/01/04/652a29c7796f34a673b5ed076da88cb6" alt=""></p><p>回到 R2 主页面，点击右上角「管理 R2 API 令牌」，进入后点击「创建 API 令牌」。</p><p><img src="https://alist.deebian.com//2025/01/04/0088651211fdedbf619fe440bbc0b622" alt=""></p><p>输入令牌名称，「权限」选择“对象读和写”并将此 API 指定之前所创建的 Bucket，这样最小化权限也保障数据安全，其余选项保持默认即可。</p><p>完成创建后会显示所有密钥，我们使用 PicList 需要的是下面三个信息，不过因为只会显示一次，建议在密码管理软件或其他地方妥善保管好这些参数信息。</p><p>至此，我们需要在 Cloudflare R2 上配置的部分就完成了，接下来我们需要配置 PicList 客户端。</p><h2 id="PicList下载安装">PicList下载安装</h2><h3 id="Github-release">Github release<a href="https://piclist.cn/app.html#github-release"></a></h3><hr><p><a href="https://github.com/Kuingsmile/PicList/releases/latest">https://github.com/Kuingsmile/PicList/releases/latest</a></p><h3 id="PicList设置">PicList设置</h3><p><img src="https://alist.deebian.com//2025/01/08/5183b59449ed7ec4ce05e62715d521bf" alt=""></p>]]></content>
+    
+    
+    <summary type="html">Cloudflare R2 + PicList搭建自己的免费图床</summary>
     
     
     
