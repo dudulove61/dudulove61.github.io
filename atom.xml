@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Tox🥝</title>
+  <title>Tox Blog</title>
   
   
-  <link href="https://deebian.com/atom.xml" rel="self"/>
+  <link href="https://tox.wang/atom.xml" rel="self"/>
   
-  <link href="https://deebian.com/"/>
+  <link href="https://tox.wang/"/>
   <updated>2025-04-02T08:14:53.664Z</updated>
-  <id>https://deebian.com/</id>
+  <id>https://tox.wang/</id>
   
   <author>
     <name>Tox🥝</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Signal完全指南</title>
-    <link href="https://deebian.com/posts/undefined.html"/>
-    <id>https://deebian.com/posts/undefined.html</id>
+    <link href="https://tox.wang/posts/undefined.html"/>
+    <id>https://tox.wang/posts/undefined.html</id>
     <published>2025-04-02T08:07:23.000Z</published>
     <updated>2025-04-02T08:14:53.664Z</updated>
     
@@ -34,15 +34,15 @@
     
     
     
-    <category term="软件推荐" scheme="https://deebian.com/categories/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/"/>
+    <category term="软件推荐" scheme="https://tox.wang/categories/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/"/>
     
     
   </entry>
   
   <entry>
     <title>从零开始搭建你的免费图床系统 （Cloudflare R2 + PicList）</title>
-    <link href="https://deebian.com/posts/83dcefb7.html"/>
-    <id>https://deebian.com/posts/83dcefb7.html</id>
+    <link href="https://tox.wang/posts/83dcefb7.html"/>
+    <id>https://tox.wang/posts/83dcefb7.html</id>
     <published>2025-01-08T05:10:56.000Z</published>
     <updated>2025-01-11T03:13:54.000Z</updated>
     
@@ -53,17 +53,17 @@
     
     
     
-    <category term="技术教程" scheme="https://deebian.com/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
+    <category term="技术教程" scheme="https://tox.wang/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="免费图床" scheme="https://deebian.com/tags/%E5%85%8D%E8%B4%B9%E5%9B%BE%E5%BA%8A/"/>
+    <category term="免费图床" scheme="https://tox.wang/tags/%E5%85%8D%E8%B4%B9%E5%9B%BE%E5%BA%8A/"/>
     
   </entry>
   
   <entry>
     <title>GitHub图床+Cloudflare加速 部署教程</title>
-    <link href="https://deebian.com/posts/95b44280.html"/>
-    <id>https://deebian.com/posts/95b44280.html</id>
+    <link href="https://tox.wang/posts/95b44280.html"/>
+    <id>https://tox.wang/posts/95b44280.html</id>
     <published>2025-01-08T05:10:56.000Z</published>
     <updated>2025-01-12T08:43:19.301Z</updated>
     
@@ -74,17 +74,17 @@
     
     
     
-    <category term="技术教程" scheme="https://deebian.com/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
+    <category term="技术教程" scheme="https://tox.wang/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="免费图床" scheme="https://deebian.com/tags/%E5%85%8D%E8%B4%B9%E5%9B%BE%E5%BA%8A/"/>
+    <category term="免费图床" scheme="https://tox.wang/tags/%E5%85%8D%E8%B4%B9%E5%9B%BE%E5%BA%8A/"/>
     
   </entry>
   
   <entry>
     <title>Markdown语法与外挂标签写法汇总</title>
-    <link href="https://deebian.com/posts/2013454d.html"/>
-    <id>https://deebian.com/posts/2013454d.html</id>
+    <link href="https://tox.wang/posts/2013454d.html"/>
+    <id>https://tox.wang/posts/2013454d.html</id>
     <published>2022-08-09T10:19:03.000Z</published>
     <updated>2022-10-23T14:00:00.000Z</updated>
     
@@ -95,12 +95,12 @@
     
     
     
-    <category term="计算机基础" scheme="https://deebian.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/"/>
+    <category term="计算机基础" scheme="https://tox.wang/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/"/>
     
     
-    <category term="Markdown" scheme="https://deebian.com/tags/Markdown/"/>
+    <category term="Markdown" scheme="https://tox.wang/tags/Markdown/"/>
     
-    <category term="外挂标签" scheme="https://deebian.com/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/"/>
+    <category term="外挂标签" scheme="https://tox.wang/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/"/>
     
   </entry>
   
