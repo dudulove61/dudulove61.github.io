@@ -6,7 +6,7 @@
   <link href="https://tox.wang/atom.xml" rel="self"/>
   
   <link href="https://tox.wang/"/>
-  <updated>2025-04-02T08:14:53.664Z</updated>
+  <updated>2025-04-18T09:17:54.528Z</updated>
   <id>https://tox.wang/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Joplin：自由、安全、多功能的笔记应用</title>
+    <link href="https://tox.wang/posts/7c4731fe.html"/>
+    <id>https://tox.wang/posts/7c4731fe.html</id>
+    <published>2025-04-18T09:15:27.000Z</published>
+    <updated>2025-04-18T09:17:54.528Z</updated>
+    
+    <content type="html"><![CDATA[<h1>Joplin：自由、安全、多功能的笔记应用</h1><p>什么是 Joplin？<br>Joplin是一款免费、开源的笔记和待办事项应用程序，可以处理整理到笔记本中的大量笔记。这些笔记是可搜索的，可以直接从应用程序或从您自己的文本编辑器中复制、标记和修改。笔记采用Markdown 格式</p><p><img src="https://img.tox.wang//2025/04/18/41309008b50861df6a6c4f23586ef217" alt=""></p><p>功能亮点<br>功能丰富，满足各种需求<br>Joplin 可以处理大量的笔记，并允许用户将它们组织到不同的笔记本中。这些笔记可以被搜索、复制、标记和修改，无论是直接在应用中还是使用你自己的文本编辑器。Joplin 使用 Markdown 格式，这对于那些熟悉这种简洁标记语言的人来说是一个优势。</p><p>此外，Joplin 还支持从 Evernote 导入笔记，包括格式化的内容（转换为 Markdown）、资源（图片、附件等）和完整的元数据（地理位置、更新时间、创建时间等）。你也可以导入纯 Markdown 文件。</p><p>离线优先，数据安全<br>Joplin 采用离线优先的设计理念，这意味着你的数据始终存储在你的设备上。这种方式可以确保你的笔记在任何时候都是可访问的，无论你是否有互联网连接。</p><p>对于同步需求，Joplin 提供了安全的端到端加密同步功能，支持多种云服务，如 Nextcloud、Dropbox、OneDrive 和 Joplin Cloud。这样，你可以在多个设备之间无缝地同步你的笔记，同时保持数据的私密性和安全性。</p><p>强大的搜索功能和自定义选项<br>Joplin 提供了全平台的全文搜索功能，帮助你快速找到所需的信息。此外，该应用还允许你通过插件和主题来自定义界面，以满足你的个人喜好。你甚至可以创建自己的插件和主题，以获得更加个性化的使用体验。</p><p>跨平台可用性和额外工具<br>Joplin 适用于 Windows、Linux、macOS、Android 和 iOS，因此你可以在任何设备上访问你的笔记。此外，Joplin 还提供了一个 Web Clipper，用于保存网页和截图，适用于 Firefox 和 Chrome 浏览器。</p><p>功能介绍</p><ol><li>多媒体笔记功能<br>Joplin支持多种格式的文件，包括图片、视频、PDF和音频文件。用户可以直接在应用中创建数学表达式和图表，甚至可以通过移动应用拍摄照片并保存到笔记中。</li></ol><p><img src="https://img.tox.wang//2025/04/18/af1c1cd23ad4c4dddedf72a25a472df3" alt=""></p><ol start="2"><li>协作共享<br>通过Joplin Cloud，用户可以与朋友、家人或同事分享笔记并进行协作。此外，用户还可以将笔记发布到互联网上，并通过URL与他人分享。</li></ol><p><img src="https://img.tox.wang//2025/04/18/3861c0932845628e085aca46dd4ebf7f" alt=""></p><ol start="3"><li>网页保存为笔记<br>Joplin提供网页剪辑器扩展，支持在Chrome和Firefox浏览器上使用。用户可以方便地将网页或屏幕截图保存为笔记，方便资料整理和查阅。</li></ol><p><img src="https://img.tox.wang//2025/04/18/06526c70042d1cda3b7e6d7bd91e8112" alt=""></p><ol start="4"><li>定制化<br>Joplin支持插件、自定义主题和多种文本编辑器（富文本或Markdown）。用户甚至可以使用扩展API创建自己的脚本和插件，以满足个性化的需求。</li></ol><p><img src="https://img.tox.wang//2025/04/18/f4c919d3d521dfe8ca8c90580e279429" alt=""></p><ol start="5"><li><p>全平台同步<br>Joplin支持与多种服务同步，包括Joplin Cloud、Dropbox和OneDrive。这使得用户可以在电脑、手机或平板上随时随地访问自己的笔记。Joplin支持Windows、macOS、Linux、Android和iOS平台，甚至还包括一个终端应用。</p></li><li><p>数据安全<br>Joplin是一款开源应用，它使用开放格式保存用户的笔记，确保用户始终可以访问自己的数据。此外，Joplin还采用端到端加密（E2EE）来保护用户的笔记，确保只有用户本人才能访问。</p></li></ol><p>结语<br>github：<a href="https://github.com/laurent22/joplin">https://github.com/laurent22/joplin</a></p><p>官网：<a href="https://joplinapp.org/">https://joplinapp.org/</a></p><p>目前在 GitHub 上已经获得了 43k+ 的 Star，可见非常受欢迎。探索 Joplin，你会发现一个全新的、高效的记录和组织信息的方式。<br>————————————————</p><pre><code>                        版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。</code></pre><p>原文链接：<a href="https://blog.csdn.net/weixin_42147666/article/details/138635259">https://blog.csdn.net/weixin_42147666/article/details/138635259</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1&gt;Joplin：自由、安全、多功能的笔记应用&lt;/h1&gt;
+&lt;p&gt;什么是 Joplin？&lt;br&gt;
+Joplin是一款免费、开源的笔记和待办事项应用程序，可以处理整理到笔记本中的大量笔记。这些笔记是可搜索的，可以直接从应用程序或从您自己的文本编辑器中复制、标记和修改。笔记采用Ma</summary>
+      
+    
+    
+    
+    <category term="软件推荐" scheme="https://tox.wang/categories/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Signal完全指南</title>
